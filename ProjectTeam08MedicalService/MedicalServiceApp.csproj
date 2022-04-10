@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA34D49D-9AB5-4773-AC9A-ACD7A34A42C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjectTeam08MedicalService</RootNamespace>
+    <AssemblyName>ProjectTeam08MedicalService</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddOrUpdateTreatment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrUpdateTreatment.Designer.cs">
+      <DependentUpon>AddOrUpdateTreatment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackUpSales.cs" />
+    <Compile Include="SalesReportAddUpdateScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportAddUpdateScreen.Designer.cs">
+      <DependentUpon>SalesReportAddUpdateScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSalesReport.Designer.cs">
+      <DependentUpon>ViewSalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSideFroms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSideFroms.Designer.cs">
+      <DependentUpon>AdminSideFroms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrUpdateDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrUpdateDoctor.Designer.cs">
+      <DependentUpon>AddOrUpdateDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalServiceAppMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicalServiceAppMainForm.Designer.cs">
+      <DependentUpon>MedicalServiceAppMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInquiryScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInquiryScreen.Designer.cs">
+      <DependentUpon>PatientInquiryScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesPersonScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesPersonScreen.Designer.cs">
+      <DependentUpon>SalesPersonScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddOrUpdateDoctor.resx">
+      <DependentUpon>AddOrUpdateDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrUpdateTreatment.resx">
+      <DependentUpon>AddOrUpdateTreatment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSideFroms.resx">
+      <DependentUpon>AdminSideFroms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicalServiceAppMainForm.resx">
+      <DependentUpon>MedicalServiceAppMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInquiryScreen.resx">
+      <DependentUpon>PatientInquiryScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SalesPersonScreen.resx">
+      <DependentUpon>SalesPersonScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EFControllerUtilities\EFControllerUtilities.csproj">
+      <Project>{cfc02b35-28bf-470d-97d7-b97b2d350453}</Project>
+      <Name>EFControllerUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MedicalServiceCodeFirstFromDB\MedicalServiceCodeFirstFromDB.csproj">
+      <Project>{e5ede6da-e14c-43af-aace-f28560b9bed8}</Project>
+      <Name>MedicalServiceCodeFirstFromDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MedicalServiceValidation\MedicalServiceValidation.csproj">
+      <Project>{be9db4d9-7cca-41af-b26b-bf9c1f6d18ae}</Project>
+      <Name>MedicalServiceValidation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MedicalTravelDB\MedicalTravelDB.sqlproj">
+      <Project>{98cbb55f-15c8-466a-af58-36344e1ccb90}</Project>
+      <Name>MedicalTravelDB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

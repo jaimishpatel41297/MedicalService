@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Doctors] (Table)
+       [dbo].[Inquiry] (Table)
+       [dbo].[Sales] (Table)
+       [dbo].[Treatment] (Table)
+       [dbo].[FK_Treatment_Inquiry_TreatmentID] (Foreign Key)
+       [dbo].[FK_Inquiry_Sales_PatientEmail] (Foreign Key)
+       [dbo].[FK_Doctor_Sales_DoctorID] (Foreign Key)
+       [dbo].[FK_Treatment_Sales_TreatmentID] (Foreign Key)
+       [dbo].[FK_Doctors_Treatment_DoctorID] (Foreign Key)
+
+** Supporting actions

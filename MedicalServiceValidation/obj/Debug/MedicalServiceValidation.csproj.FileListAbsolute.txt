@@ -1,0 +1,15 @@
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\MedicalServiceValidation.dll.config
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\MedicalServiceValidation.dll
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\MedicalServiceValidation.pdb
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\EntityFramework.dll
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\MedicalServiceCodeFirstFromDB.dll
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\MedicalServiceCodeFirstFromDB.pdb
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\MedicalServiceCodeFirstFromDB.dll.config
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\EntityFramework.xml
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\obj\Debug\MedicalServiceValidation.csprojAssemblyReference.cache
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\obj\Debug\MedicalServiceValidation.csproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\obj\Debug\MedicalServiceValidation.csproj.CopyComplete
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\obj\Debug\MedicalServiceValidation.dll
+C:\Users\patel\OneDrive\Desktop\Douglas College\Last-Semester\Advanced OOP\PROJECT\ProjectTeam08MedicalService\MedicalServiceValidation\obj\Debug\MedicalServiceValidation.pdb
